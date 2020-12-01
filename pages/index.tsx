@@ -67,12 +67,12 @@ import {
   function EditableControls({ isEditing, onSubmit, onCancel, onEdit }) {
     return isEditing ? (
       <ButtonGroup justifyContent="center" size="sm">
-        <IconButton icon={<FiCheck />} onClick={onSubmit} />
-        <IconButton icon={<FiX />} onClick={onCancel} />
+        <IconButton aria-label="Ok" icon={<FiCheck />} onClick={onSubmit} />
+        <IconButton aria-label="Cancelar" icon={<FiX />} onClick={onCancel} />
       </ButtonGroup>
     ) : (
       <Flex justifyContent="center">
-        <IconButton size="sm" icon={<FiEdit />} onClick={onEdit} />
+        <IconButton aria-label="Editar Nome" size="sm" icon={<FiEdit />} onClick={onEdit} />
       </Flex>
     )
   }
