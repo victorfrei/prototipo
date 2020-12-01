@@ -98,8 +98,8 @@ export default function home(){
         templateColumns="200px 1fr 60px"
         templateRows="50px 1fr"
         templateAreas='
-        "navbar search  profile"
-        "navbar content content"
+        ". search  profile"
+        ". content content"
         
         
         '
