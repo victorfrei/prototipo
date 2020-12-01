@@ -182,7 +182,7 @@ export default function home(){
      <GridItem
       gridArea="content"
     display="flex"
-    
+    flexWrap="wrap"
      >
          <Video img="/imgs/js.png" alt="javascript" likes="50" views="1000" title="Javascript Básico" ></Video>
          <Video img="/imgs/css.jpg" alt="javascript" likes="50" views="1000" title="CSS Básico" ></Video>
